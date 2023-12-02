@@ -6,6 +6,7 @@ import MuiAlert from '@mui/material/Alert';
 import Header from './components/Header'
 import SendTweet from './components/SendTweet'
 import ListTweets from './components/ListTweets';
+import Footer from './components/Footer';
 
 import { TWEETS_STORAGE } from './utils/contants';
 
@@ -87,6 +88,8 @@ function App() {
             </Alert>
         }
       </Snackbar>
+
+      <Footer />
     </Container>
   )
 }

@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: left;
+
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+
+  width: 100%;
+  z-index: 2;
+
+  background-color: rgb(10, 74, 178);
+  font-size: 12px;
+  color: white;
+  border-top: 1px solid gray;
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+
+  p {
+    margin-left: 1.3em;
+  }
+}
