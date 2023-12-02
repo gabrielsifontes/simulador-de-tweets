@@ -1,0 +1,22 @@
+.form {
+  background-color: white;
+  border: 2px solid #00acee;
+  padding: 1em;
+  width: 20em;
+
+  &__title {
+    margin: 0px !important;
+  }
+
+  .MuiFormControl-root {
+    width: 100%;
+  }
+
+  &__username {
+    width: 75% !important;
+  }
+
+  &__textarea {
+    width: 100%;
+  }
+}
